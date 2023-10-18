@@ -198,7 +198,7 @@ switcher.addEventListener('click', function() {
 		var chessTmp2 = document.createElement("img"); //新增 em 標籤
 		chessTmp2.className="unitChess";
 		chessTmp2.setAttribute("id","chess_"+unitData[i].name);
-		chessTmp2.setAttribute("src","../testhtml/img/"+unitData[i].picName+".jpg");
+		chessTmp2.setAttribute("src","../img/"+unitData[i].picName+".jpg");
 		chessTmp2.addEventListener('dragstart', dragStart);
 		
 		unitData[i].pictureID="chess_"+unitData[i].name;
